@@ -86,8 +86,8 @@ const activities = [
     },
     {
         content: '選舉公報',
-        start: new Date(2023, 4, 17),
-        finish: new Date(2023, 4, 18),
+        start: new Date(2024, 4, 17),
+        finish: new Date(2024, 4, 18),
         maybe: false,
     },
     {
