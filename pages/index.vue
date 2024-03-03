@@ -73,15 +73,15 @@ const style = (start: Date, end: Date) => {
 const activities = [
     {
         content: '登記參選',
-        start: new Date(2023, 4, 1),
-        end: new Date(2023, 4, 12),
-        finish: new Date(2023, 4, 13),
+        start: new Date(2024, 4, 1),
+        end: new Date(2024, 4, 12),
+        finish: new Date(2024, 4, 13),
         maybe: false,
     },
     {
         content: '候選人名單公告',
-        start: new Date(2023, 4, 15),
-        finish: new Date(2023, 4, 16),
+        start: new Date(2024, 4, 15),
+        finish: new Date(2024, 4, 16),
         maybe: false,
     },
     {
@@ -135,3 +135,7 @@ const activities = [
     },
 ]
 </script>
+
+
+
+
