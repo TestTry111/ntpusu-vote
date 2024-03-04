@@ -393,13 +393,12 @@ const checkLogin = () => {
     setTimeout(async () => {
         if (status.value) {
             if (status.value === 'authenticated') {
-                /*
                 const {
                     data: res,
                     refresh,
                     error,
                 } = await useFetch('/api/checkLogin')
-                
+
                 while (!res.value) {
                     if (error.value) {
                         ElMessage.error('操作過於頻繁，無法獲得登入序號')
@@ -410,14 +409,13 @@ const checkLogin = () => {
 
                     setTimeout(() => {}, 500)
                 }
-                */
-                //loginInfo.value = res.value.login
+
+                loginInfo.value = res.value.login
                 showLoginBadge.value = true
-                /*
+
                 if (res.value.firstLogin) {
                     await showLoginInfo()
                 }
-                */
             }
         } else checkLogin()
     }, 250)
