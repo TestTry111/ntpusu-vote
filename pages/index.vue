@@ -92,8 +92,8 @@ const activities = [
     },
     {
         content: '候選人政見發表會',
-        start: new Date(2024, 4, 22),
-        finish: new Date(2024, 4, 23),
+        start: new Date(2023, 4, 22),
+        finish: new Date(2023, 4, 23),
         maybe: false,
     },
     {
