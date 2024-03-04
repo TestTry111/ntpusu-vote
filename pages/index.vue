@@ -98,8 +98,8 @@ const activities = [
     },
     {
         content: '線上投票',
-        start: new Date(2023, 4, 24),
-        finish: new Date(2023, 4, 25),
+        start: new Date(2024, 4, 24),
+        finish: new Date(2024, 4, 25),
         maybe: false,
     },
     {
